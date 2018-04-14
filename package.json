@@ -1,0 +1,16 @@
+{
+  "name": "wsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass --watch --output-style compressed index.scss index.css",
+    "build": "node-sass --output-style compressed index.scss index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.8.3"
+  }
+}

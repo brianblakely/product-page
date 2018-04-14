@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brian Blakely - Williams Sanoma Markup Challenge</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h2>
+      Williams-Sonoma - California
+    </h2>
+
+    <nav>
+      <ul>
+        <li>Cookware</li>
+        <li>Cooks' Tools</li>
+        <li>Cutlery</li>
+        <li>Electrics</li>
+        <li>Bakeware</li>
+        <li>Food</li>
+        <li>Tabletop & Bar</li>
+        <li>Homekeeping</li>
+        <li>Outdoor</li>
+        <li>Sale</li>
+      </ul>
+      <a href="#">
+        Williams-Sonoma Home
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <nav id="breadcrumbs">
+      <ol>
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Homekeeping
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Aprons
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Adult Aprons
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Williams-Sonoma Classic Apron, French Blue
+          </a>
+        </li>
+      </ol>
+    </nav>
+
+    <section id="gallery">
+      <div id="zoom" style="background-image: url(img/product-large-a.jpg);"></div>
+      <ul>
+        <li role="button" class="active">
+          <img src="img/product-small-a.jpg" alt="French Blue">
+        </li>
+        <li role="button">
+          <img src="img/product-small-b.jpg" alt="Striped">
+        </li>
+        <li role="button">
+          <img src="img/product-small-c.jpg" alt="Creme">
+        </li>
+        <li role="button">
+          <img src="img/product-small-d.jpg" alt="Red">
+        </li>
+      </ul>
+    </section>
+
+    <section id="description">
+      <h1>Williams-Sonoma Classic Apron, <span id="variant">French Blue</span></h1>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae pellentesque risus, ut auctor erat. Vivamus elementum lacus sed ex dictum, auctor hendrerit neque semper. Mauris laoreet ut tortor nec lobortis. In ac nunc commodo, aliquet lorem sed, sagittis libero. Suspendisse id facilisis ipsum. Nulla facilisi. Mauris facilisis, ante nec egestas imperdiet, ex dui pellentesque enim, quis faucibus quam justo in ante. Morbi elit sem, ullamcorper scelerisque elementum eget, pharetra non dolor. Nam rhoncus bibendum quam ultricies pretium. Nunc ac iaculis ex, sit amet finibus turpis.
+      </p>
+      <ul>
+        <li>Durable 100% cotton construction.</li>
+        <li>Adjustable neckband ensures a good fit.</li>
+        <li>Roomy front pockets hold small tools.</li>
+        <li>Machine-wash.</li>
+      </ul>
+
+      <span id="price">$19.95</span>
+
+      <input type="number" placeholder="0" />
+
+      <span role="button" id="add-to-cart">Add to Cart</span>
+
+      <dl>
+        <dt class="expanded">Section</dt>
+        <dd>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis elementum ligula sit amet vehicula. Sed sit amet ornare mauris. Cras sit amet erat dapibus, tempus ex vitae, efficitur orci. Morbi lobortis ornare quam, vitae feugiat nunc suscipit eget. Sed sit amet diam porta, ultricies purus sit amet, congue ante.</span>
+        </dd>
+        <dt>Section</dt>
+        <dd>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis elementum ligula sit amet vehicula. Sed sit amet ornare mauris. Cras sit amet erat dapibus, tempus ex vitae, efficitur orci. Morbi lobortis ornare quam, vitae feugiat nunc suscipit eget. Sed sit amet diam porta, ultricies purus sit amet, congue ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis elementum ligula sit amet vehicula. Sed sit amet ornare mauris. Cras sit amet erat dapibus, tempus ex vitae, efficitur orci. Morbi lobortis ornare quam, vitae feugiat nunc suscipit eget. Sed sit amet diam porta, ultricies purus sit amet, congue ante.</span>
+        </dd>
+        <dt>Section</dt>
+        <dd>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis elementum ligula sit amet vehicula. Sed sit amet ornare mauris. Cras sit amet erat dapibus, tempus ex vitae, efficitur orci. Morbi lobortis ornare quam, vitae feugiat nunc suscipit eget. Sed sit amet diam porta, ultricies purus sit amet, congue ante.</span>
+        </dd>
+      </dl>
+    </section>
+  </main>
+
+  <footer>
+    <small>
+      &copy; 2018 Williams-Sonoma Inc., All Rights Reserved
+      |
+      <a href="#">Terms and Conditions</a>
+      <b>(Updated March 2016)</b>
+      |
+      <a href="#">Privacy Policy</a>
+      |
+      <a href="#">Legal Statement</a>
+    </small>
+  </footer>
+
+  <dialog id="confirm"><span>👌</span></dialog>
+
+  <script src="index.js"></script>
+</body>
+</html>
